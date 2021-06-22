@@ -1,0 +1,38 @@
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.table {
+    display: block;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+.headings {
+    background: rgba(255, 237, 237, 0.3);
+}
+
+.title {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    cursor: pointer;
+    padding: 1.5em 2em;
+}
+
+.dataRow {
+    background: #fff;
+}
+
+.dataRow:nth-child(2n) {
+    background: rgba(255, 237, 237, 0.5);
+    opacity: 0.875;
+}
+
+.cellData {
+    color: #000;
+    padding: 1em 2em;
+}
